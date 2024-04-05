@@ -1,3 +1,8 @@
+%% initialize workspace
+clear all;
+close all;
+clc ;
+
 %% Required Variables
 A = 4; % Amplitude of the signal
 num_bits = 100; % Number of bits per waveform
@@ -331,7 +336,7 @@ function plotPSD(R_x, fs,n)
     %Get the Length of the Autocorrelation Function
     N = length(R_x);
     % Compute the Fourier Transform of the autocorrelation function and Normalize it
-    PSD = fftshift(fft(R_x))/N;
+    PSD = fftshift(fft(R_x))/100;
     % Take the absolute value to ensure no complex numbers are present
     PSD = abs(PSD);
     % Create a frequency vector centered around zero
