@@ -1,8 +1,3 @@
-%% initialize workspace
-clear all;
-close all;
-clc ;
-
 %% Required Variables
 A = 4; % Amplitude of the signal
 num_bits = 100; % Number of bits per waveform
