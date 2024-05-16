@@ -656,7 +656,7 @@ end
 % Applying the random initial start
 for i=1:num_waveforms
     % Generate Random initial shift
-    initial_shift = randi([0, samples]);
+    initial_shift = randi([0, (sample-1)]);
     % Apply the time shifts
     BFSK_data(i, :) = BFSK_data_no_rand_start(i, initial_shift+1:initial_shift+num_bits*samples);
 end
