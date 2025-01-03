@@ -11,7 +11,7 @@ This repository contains MATLAB code for simulating and analyzing various digita
     - [Code](#code-1)
     - [Some of the results obtained](#some-of-the-results-obtained)
   - [Project 3: OFDM System Simulation](#project-3-ofdm-system-simulation)
-    - [Description](#description-1)
+    - [Description](#description-2)
     - [Code](#code-2)
     - [Report](#project-report)
 
