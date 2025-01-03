@@ -10,6 +10,10 @@ This repository contains MATLAB code for simulating and analyzing various digita
     - [Description](#description-1)
     - [Code](#code-1)
     - [Some of the results obtained](#some-of-the-results-obtained)
+  - [Project 3: OFDM System Simulation](#project-3-ofdm-system-simulation)
+    - [Description](#description-1)
+    - [Code](#code-2)
+    - [Report](#project-report)
 
 ## Project 1: Digital Line Coding Analysis: Statistical Perspectives
 
@@ -44,7 +48,30 @@ This project aims to simulate a single carrier communication system using MATLAB
 | **PSD of BFSK**                                           | **PSD shifted of BFSK**                                            |
 | ![alt text](Digital_Modulation_Schemes/results/PSD1.jpg) | ![alt text](Digital_Modulation_Schemes/results/PSD2.jpg)  |
 
+## Project 3: OFDM System Simulation
 
+### Description
+This project focuses on the simulation and analysis of Orthogonal Frequency Division Multiplexing (OFDM) systems using MATLAB. The project includes the following:
+
+- **Implementation and Analysis of Transform Algorithms**
+  - MATLAB implementation of Discrete Fourier Transform (DFT).
+  - Performance testing of the implemented DFT and built-in FFT.
+  - Comparison of execution times between DFT and FFT.
+
+- **Bit Error Rate (BER) Performance Analysis**
+  - BER for BPSK, QPSK, and 16-QAM over Rayleigh flat fading channel.
+
+- **OFDM System Simulation**
+  - BER analysis for QPSK and 16-QAM under different channel conditions:
+    - Rayleigh flat fading channel
+    - Frequency selective fading channel
+  - Impact of rate 1/3 repetition coding on BER performance with same power per transmitted bit.
+
+### Code
+> [OFDM System Simulation and Analysis project code](OFDM)
+
+### Project Report
+> [OFDM System Simulation and Analysis project Report](OFDM/OFDM_Report.pdf)
 
 
 
