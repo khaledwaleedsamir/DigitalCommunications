@@ -14,6 +14,7 @@ This repository contains MATLAB code for simulating and analyzing various digita
     - [Description](#description-2)
     - [Code](#code-2)
     - [Report](#project-report)
+  - [Project 4: Optical OFDM System Simulation](#project-4-optical-ofdm-system-simulation)
 
 ## Project 1: Digital Line Coding Analysis: Statistical Perspectives
 
