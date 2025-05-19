@@ -73,6 +73,17 @@ This project focuses on the simulation and analysis of Orthogonal Frequency Divi
 ### Project Report
 > [OFDM System Simulation and Analysis project Report](OFDM/OFDM_Report.pdf)
 
+## Project 4: Optical OFDM System Simulation
+
+### Description
+Orthogonal Frequency Division Multiplexing (OFDM) is widely used in RF communication due to its robustness against multipath fading. However, in optical communication, especially for visible light and fiber-optic systems, Optical OFDM is gaining traction. Unlike RF OFDM, which transmits complex-valued signals, Optical OFDM operates with real, non-negative signals because light intensity cannot be negative. To adapt OFDM for optical systems, techniques like DC-Biased Optical OFDM (DCO-OFDM), Asymmetrically Clipped Optical OFDM (ACO-OFDM), and  Unipolar OFDM (U-OFDM), or Flip-OFDM, have been developed. These schemes ensure the transmission of positive signals while addressing challenges such as DC bias effects and maintaining spectral efficiency. This project compares the performance of DCO-OFDM, ACO-OFDM, and U-OFDM.
+
+### Code
+> [OFDM System Simulation and Analysis project code](Optical_OFDM)
+
+### Project Report
+> [OFDM System Simulation and Analysis project Report](Optical_OFDM/Project_Report.pdf)
+
 
 
 
